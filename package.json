@@ -1,0 +1,22 @@
+{
+  "name": "kickoff-code-toggle",
+  "version": "1.0.0",
+  "description": "Toggle code examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test/script.js -o test/bundle.js && cd test && python -m SimpleHTTPServer",
+    "build": "browserify index.js -o dist/bundle.js"
+  },
+  "keywords": [
+    "toggle",
+    "code",
+    "progressive",
+    "disclosure"
+  ],
+  "author": "Zander Martineau",
+  "license": "MIT",
+  "dependencies": {
+    "nextmatchingelement": "^1.0.1",
+    "object-assign": "^4.0.1"
+  }
+}
